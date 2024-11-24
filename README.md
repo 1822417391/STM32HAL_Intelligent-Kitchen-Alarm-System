@@ -1,0 +1,2 @@
+# STM32HAL_Intelligent-Kitchen-Alarm-System
+这个项目是用于课设，使用的STM32F103C8T6作为主控，搭配MQ2烟雾传感器|DTH11温湿度传感器|HC-SR501人体传感器|YL-83雨滴传感器搭建的智能厨房报警系统，代码使用了类RTOS的调度运行，并且搭配STM32CubeMX生成HAL库底层使用。
