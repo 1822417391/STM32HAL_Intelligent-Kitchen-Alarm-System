@@ -9,7 +9,8 @@ STM32CubeMX、Keil5。本课设通过HAL库进行开发，使用<u>类RTOS的操
 
 ### 1.2主要文件夹作用声明 ：
 
-<img src="file:///C:/Users/李俊泰/AppData/Roaming/marktext/images/2024-11-24-17-39-12-image.png" title="" alt="" data-align="center">
+![部分接口图解](https://github.com/user-attachments/assets/4075f0d5-e9c7-4373-9d9f-31d36954c1aa)
+
 
 **·BSP：**绝大部分的自定义.c.h文件存放在这，用于底层设置和驱动。
 **·DHT11：**由于DHT11对时序要求非常严格，曾经写了很多次都没办法成功读到DHT11的数据，后面通过CSDN其中一篇文章对DHT11延时影响的分析让我有了灵感，通过引入正点原子的delay库，统一延时影响，消除使用定时器配置与HAL_Delay()导致的误差影响，并且为了保正DHT11初始化与后续正常工作，将其独立列在main.c的while()中，与调度器同级运行。
