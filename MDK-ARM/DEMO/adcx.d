@@ -1,0 +1,9 @@
+demo\adcx.o: ..\HCSR501\adcx.c
+demo\adcx.o: ..\HCSR501\adcx.h
+demo\adcx.o: D:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+demo\adcx.o: ../Drivers/CMSIS/Include/core_cm3.h
+demo\adcx.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+demo\adcx.o: ../Drivers/CMSIS/Include/cmsis_version.h
+demo\adcx.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+demo\adcx.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+demo\adcx.o: D:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
