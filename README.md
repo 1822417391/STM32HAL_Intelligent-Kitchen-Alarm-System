@@ -29,6 +29,7 @@ STM32CubeMX、Keil5。本课设通过HAL库进行开发，使用<u>类RTOS的操
 
 https://oshwhub.com/genta0523/kitchen
 
-### 3.关于迭代
+### 3.关于迭代&视频展示链接传送门：
 
 对于后续该系统暂时不考虑更新维护，原因其为本人的一个课程作业，大部分功能都完成了，对于PCB的Layout存在很多不合理的部分，这也是我第一次开源，希望能够解各位完成期末课设人的一个选题燃眉之急，谢谢！
+【[课设演示视频]基于传感器的智能厨房报警系统】 https://www.bilibili.com/video/BV1ibzwYuE2J/?share_source=copy_web&vd_source=11b7fdd077e06a5d804cb6e9f60cdc83
