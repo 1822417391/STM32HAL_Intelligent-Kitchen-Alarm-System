@@ -27,7 +27,7 @@ STM32CubeMX、Keil5。本课设通过HAL库进行开发，使用<u>类RTOS的操
 
 ### 2.2具体开源连接传送门：立创硬件开源平台
 
-
+https://oshwhub.com/genta0523/kitchen
 
 ### 3.关于迭代
 
